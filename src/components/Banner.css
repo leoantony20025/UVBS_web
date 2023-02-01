@@ -1,0 +1,44 @@
+.banner {
+    width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+    /* background-image: url("../assets/home.jpg"); */
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.b-main {
+    max-width: 70vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 219, 173, 0.276);
+    padding: 20vh 10vw;
+}
+
+.b-main h1 {
+    font-size: 49px;
+    max-width: 80vw;
+    text-align: center;
+}
+
+.b-main span {
+    display: block;
+    height: 10px;
+    width: 30vw;
+    background: linear-gradient(90deg, rgb(220, 121, 0), rgb(255, 98, 0));
+    margin-bottom: 20px;
+}
+
+.b-main p {
+    max-width: 80vw;
+    text-align: center;
+    color: rgb(255, 227, 133);
+}

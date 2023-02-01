@@ -1,0 +1,109 @@
+.acts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 0;
+}
+
+.a-grid {
+    width: 80vw;
+    margin: 100px auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.a-grid img {
+    object-fit: cover;
+    box-shadow: 0 2px 12px rgba(84, 84, 84, 0.269);
+    border-radius: 10px;
+}
+
+.ag-row {
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.ag-row img,
+.ag-row div {
+    width: 40vw;
+    height: 20vh;
+}
+
+.ag-rowm img,
+.ag-rowm {
+    width: calc(80vw + 10px);
+    height: 50vh;
+}
+
+.ag-row>div,
+.ag-rowm {
+    position: relative;
+}
+
+.a-grid p {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.258);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.a-grid span {
+    border-bottom: 3px solid orange;
+    width: 10%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.rep {
+    width: 80vw;
+    margin: auto;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.rep img {
+    width: 60px;
+}
+
+.r-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 220px;
+}
+
+.r-card h2 {
+    font-weight: normal;
+    font-size: xx-large;
+    color: orange;
+}
+
+.r-card span {
+    width: 30%;
+    height: 3px;
+    border-bottom: 5px solid orange;
+}
+
+.r-card p {
+    text-align: center;
+}
