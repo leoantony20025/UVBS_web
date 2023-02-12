@@ -1,0 +1,112 @@
+.footer {
+  width: 90vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(120deg, gold, rgb(255, 174, 1));
+  padding: 100px 0;
+  position: relative;
+  gap: 50px;
+  margin-top: 100px;
+  margin-bottom: 10vw;
+  border-radius: 50px;
+  box-shadow: 0 5px 30px rgba(255, 209, 160, 0.288);
+}
+
+.f-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: -150px;
+}
+
+.f-title img {
+  width: 80px;
+  border-radius: 20px;
+  border: 8px solid rgb(255, 228, 179);
+  padding: 2px;
+  background-color: white;
+  box-shadow: 0 0 30px rgba(179, 179, 179, 0.142);
+}
+
+.f-title p {
+  font-size: xx-large;
+  font-weight: bolder;
+  opacity: 0.3;
+  margin: 5px;
+  color: white;
+}
+
+.f-body {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.f-body > div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.f-body p,
+.f-links p {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: max-content;
+}
+
+.f-body p span,
+.f-links p span {
+  width: 60%;
+  height: 3px;
+  background-color: rgb(255, 21, 21);
+}
+
+.f-body a {
+  text-decoration: none;
+  color: rgb(252, 224, 163);
+  font-size: small;
+  transition: all 0.2s ease-in-out;
+}
+
+.f-body a:hover {
+  color: yellow;
+  font-weight: 100;
+}
+
+.f-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.f-links div {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 90vw;
+  gap: 15px;
+}
+
+.f-links a {
+  background: linear-gradient(
+    120deg,
+    rgba(255, 136, 38, 0.377),
+    rgba(255, 123, 0, 0.712)
+  );
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+  box-shadow: 0 3px 12px rgba(54, 54, 54, 0.121);
+}
+
+.f-links img {
+  width: 25px;
+  padding: 10px;
+}

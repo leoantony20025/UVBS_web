@@ -1,44 +1,93 @@
 .banner {
-    width: 100vw;
-    min-height: 100vh;
-    margin: 0;
-    /* background-image: url("../assets/home.jpg"); */
-    background-position: center;
-    background-size: cover;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  width: 90vw;
+  min-height: 100vh;
+  margin: auto;
+  margin-top: 130px;
+  /* background-image: url("../assets/home.jpg"); */
+  background-position: center;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  box-shadow: 0 5px 30px rgba(46, 46, 46, 0.285);
+  border-bottom-right-radius: 60%;
+  overflow: hidden;
+}
+
+header {
+  width: 90vw;
+  height: 40px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  padding: 20px 0;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 20px;
+  z-index: 20;
+  box-shadow: 0 5px 30px rgba(126, 126, 126, 0.116);
+}
+
+header img {
+  width: 50px;
+  border-radius: 10px;
+  border: 2px solid rgba(255, 223, 168, 0.144);
+  margin-left: 20px;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+  font-size: small;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+header a:hover {
+  color: orange;
+  padding-bottom: 7px;
+  border-bottom: 4px solid orange;
 }
 
 .b-main {
-    max-width: 70vw;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(255, 219, 173, 0.276);
-    padding: 20vh 10vw;
+  max-width: 65vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 219, 173, 0.276);
+  padding: 80px 30px;
 }
 
 .b-main h1 {
-    font-size: 49px;
-    max-width: 80vw;
-    text-align: center;
+  font-size: 49px;
+  max-width: 80vw;
+  text-align: center;
 }
 
 .b-main span {
-    display: block;
-    height: 10px;
-    width: 30vw;
-    background: linear-gradient(90deg, rgb(220, 121, 0), rgb(255, 98, 0));
-    margin-bottom: 20px;
+  display: block;
+  height: 10px;
+  width: 30vw;
+  background: linear-gradient(90deg, rgb(220, 121, 0), rgb(255, 98, 0));
+  margin-bottom: 20px;
 }
 
 .b-main p {
-    max-width: 80vw;
-    text-align: center;
-    color: rgb(255, 227, 133);
+  max-width: 80vw;
+  text-align: center;
+  color: rgb(255, 227, 133);
 }

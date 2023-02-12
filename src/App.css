@@ -1,4 +1,23 @@
 * {
-    margin: 0;
-    font-family: "Montserrat";
+  margin: 0;
+  font-family: "Montserrat";
+}
+
+*::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+*::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(255, 123, 0, 0);
+}
+
+*::-webkit-scrollbar-thumb {
+  width: 0.5rem;
+  background-color: orange;
+  border-radius: 10px;
+  outline: none;
+}
+
+body {
+  overflow-x: hidden;
 }
