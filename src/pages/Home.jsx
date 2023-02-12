@@ -1,8 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 import Banner from "../components/Banner";
 import Testimonial from "../components/Testimonial";
 import Title from "../components/Title";
-import sImg from "../assets/home.jpg";
+import sImg from "../assets/home4.jpeg";
+import a1 from "../assets/a1.jpg";
+import a2 from "../assets/a2.png";
+import a3 from "../assets/a3.jpg";
+import a4 from "../assets/a4.jpg";
+import a5 from "../assets/a5.jpg";
 import "./Home.css";
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
@@ -10,11 +15,6 @@ import contactIcon from "../assets/contact.jpg";
 import Themes from "../components/Themes";
 
 function Home() {
-  const [email, setEmail] = useState({
-    subject: "",
-    message: "",
-  });
-
   return (
     <div className="home">
       <Banner
@@ -58,33 +58,33 @@ function Home() {
               <p>
                 Open Air Ministry <span></span>
               </p>
-              <img src={sImg} alt="" />
+              <img src={a1} alt="" />
             </div>
             <div>
               <p>
                 Sunday School Retreat <span></span>
               </p>
-              <img src={sImg} alt="" />
+              <img src={a2} alt="" />
             </div>
           </div>
           <div className="ag-rowm">
             <p>
               Vacation Bible School <span></span>
             </p>
-            <img src={sImg} alt="" />
+            <img src={a3} alt="" />
           </div>
           <div className="ag-row">
             <div>
               <p>
                 School Meetings <span></span>
               </p>
-              <img src={sImg} alt="" />
+              <img src={a4} alt="" />
             </div>
             <div>
               <p>
                 Camp <span></span>
               </p>
-              <img src={sImg} alt="" />
+              <img src={a5} alt="" />
             </div>
           </div>
         </div>

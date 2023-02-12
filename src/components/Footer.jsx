@@ -15,23 +15,23 @@ function Footer() {
           <p>
             Home <span></span>
           </p>
-          <Link to={"/#acts"}>Activities</Link>
-          <Link to={"/#"}>Themes</Link>
-          <Link to={"/#testimonials"}>Testimonials</Link>
+          <a href={"/#story"}>Story</a>
+          <a href={"/#acts"}>Activities</a>
+          <a href={"/#themes"}>Themes</a>
+          <a href={"/#testimonials"}>Testimonials</a>
         </div>
         <div>
           <p>
             About <span></span>
           </p>
-          <Link to={"/#"}>Story</Link>
-          <Link to={"/about#"}>Director's Letter</Link>
-          <Link to={"/about#"}>Journey</Link>
+          <a href={"/about#letter"}>Director's Letter</a>
+          <a href={"/about#journey"}>Journey</a>
         </div>
         <div>
           <p>
             Contact <span></span>
           </p>
-          <Link to={"/contact"}>Location</Link>
+          <a href={"/contact#location"}>Location</a>
         </div>
       </div>
       <div className="f-links">

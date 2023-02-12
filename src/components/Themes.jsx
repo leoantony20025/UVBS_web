@@ -10,7 +10,7 @@ import Title from "./Title";
 
 function Themes() {
   return (
-    <div className="themes">
+    <div id="themes" className="themes">
       <Title
         img={"https://img.icons8.com/ios/150/null/themes.png"}
         title={"ThEMES"}

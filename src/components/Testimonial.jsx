@@ -6,6 +6,7 @@ import img3 from "../assets/3.jpg";
 import img4 from "../assets/4.jpg";
 import img5 from "../assets/5.jpg";
 import img6 from "../assets/6.jpg";
+import director from "../assets/director.jpg";
 
 function Testimonial() {
   return (
@@ -17,6 +18,11 @@ function Testimonial() {
         title={"TESTIMONIALS"}
       />
       <div className="t-main">
+        <TestCard
+          img={director}
+          name={"Dr. Paul Viswanathan"}
+          role={"Director"}
+        />
         <TestCard
           img={img2}
           name={"Mr. Don Franklin Daniel"}

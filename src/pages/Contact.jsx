@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Banner from "../components/Banner";
 import "./Contact.css";
-import photo from "../assets/home.jpg";
+import photo from "../assets/home5.jpg";
 import Title from "../components/Title";
 import Footer from "../components/Footer";
 import contactIcon from "../assets/contact.jpg";
@@ -14,13 +14,13 @@ function Contact() {
   return (
     <div className="contact">
       <Banner
-        h1={"Contact"}
+        h1={"Contact Us"}
         p={"Greetings to you in His mighty name!"}
         img={photo}
         page={"contact"}
       />
       <Title title={"Location"} />
-      <div className="location">
+      <div id="location" className="location">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2258.376238230775!2d78.6576044732031!3d10.811862012996636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baaf57e4ebbeff5%3A0xe2030df997d66378!2s36%2F337%2C%203rd%20Cross%20St%2C%20Shanmugha%20Nagar%20West%20Extension%2C%20Shanmuga%20Nagar%2C%20Tiruchirappalli%2C%20Tamil%20Nadu%20620102!5e0!3m2!1sen!2sin!4v1676138926424!5m2!1sen!2sin"
           allowfullscreen

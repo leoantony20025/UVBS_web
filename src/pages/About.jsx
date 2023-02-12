@@ -1,25 +1,23 @@
 import React from "react";
 import Banner from "../components/Banner";
-import photo from "../assets/home.jpg";
+import photo from "../assets/home2.jpeg";
 import "./About.css";
 import Title from "../components/Title";
 import Footer from "../components/Footer";
+import director from "../assets/director.jpg";
 
 function About() {
   return (
     <div className="about">
       <Banner
-        h1={"About US"}
+        h1={"About Us"}
         p={"Greetings to you in His mighty name!"}
         img={photo}
         page={"about"}
       />
-      <div className="a-letter">
+      <div id="letter" className="a-letter">
         <div className="al-head">
-          <img
-            src="https://img.icons8.com/material-outlined/50/FD7E14/hot-air-balloon.png"
-            alt=""
-          />
+          <img src={director} alt="" />
           <div>
             <h3>Director's Letter</h3>
             <span>Paul Viswanathan</span>
@@ -70,7 +68,7 @@ function About() {
           title={"JOURNEY"}
         />
       </div>
-      <div className="jour">
+      <div id="journey" className="jour">
         <div className="j-field" style={{ marginTop: 50 }}>
           <img
             src="https://img.icons8.com/material-outlined/50/FD7E14/hot-air-balloon.png"

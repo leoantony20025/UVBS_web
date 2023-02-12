@@ -3,8 +3,7 @@
   min-height: 100vh;
   margin: auto;
   margin-top: 130px;
-  /* background-image: url("../assets/home.jpg"); */
-  background-position: center;
+  background-position: top;
   background-size: cover;
   color: white;
   display: flex;
@@ -89,5 +88,5 @@ header a:hover {
 .b-main p {
   max-width: 80vw;
   text-align: center;
-  color: rgb(255, 227, 133);
+  color: rgb(56, 43, 0);
 }
