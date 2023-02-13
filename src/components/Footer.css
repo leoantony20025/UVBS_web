@@ -58,6 +58,7 @@
   flex-direction: column;
   color: white;
   width: max-content;
+  font-weight: bold;
 }
 
 .f-body p span,
@@ -69,7 +70,7 @@
 
 .f-body a {
   text-decoration: none;
-  color: rgb(252, 224, 163);
+  color: rgb(255, 251, 241);
   font-size: small;
   transition: all 0.2s ease-in-out;
 }
