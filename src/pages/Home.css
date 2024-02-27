@@ -1,267 +1,257 @@
 .h-about {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-around;
-  margin: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 100px 0;
 }
 
 .ha-left h2 {
-  font-size: xx-large;
-  font-weight: 100;
-  background-color: orange;
-  padding: 100px 30px 30px 60px;
-  color: white;
-  position: relative;
+    font-size: xx-large;
+    font-weight: 100;
+    background-color: #0073ff;
+    padding: 100px 30px 30px 60px;
+    color: white;
+    position: relative;
 }
 
 .ha-left h2::before {
-  content: "";
-  width: 150px;
-  height: 150px;
-  background-color: rgb(255, 201, 102);
-  position: absolute;
-  top: -50px;
-  left: -50px;
+    content: "";
+    width: 150px;
+    height: 150px;
+    background-color: rgb(102, 181, 255);
+    position: absolute;
+    top: -50px;
+    left: -50px;
 }
 
 .ha-right {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .ha-right p {
-  max-width: 500px;
-  padding: 40px;
-  box-shadow: 0 5px 30px rgba(118, 118, 118, 0.116);
-  line-height: 30px;
-  color: rgb(106, 106, 106);
+    max-width: 500px;
+    padding: 40px;
+    box-shadow: 0 5px 30px rgba(118, 118, 118, 0.116);
+    line-height: 30px;
+    color: rgb(106, 106, 106);
 }
 
 .ha-right p:first-of-type {
-  z-index: 10;
-  margin-left: -25%;
-  background: linear-gradient(
-    120deg,
-    rgb(255, 250, 240) 20%,
-    rgb(255, 255, 242) 20%,
-    white
-  );
+    z-index: 10;
+    margin-left: -25%;
+    background: linear-gradient( 120deg, rgb(240, 244, 255) 20%, rgb(242, 248, 255) 20%, white);
 }
 
 .ha-right p:last-of-type {
-  margin-left: 10%;
-  padding-top: 60px;
-  margin-top: -40px;
-  background: linear-gradient(
-    120deg,
-    rgb(255, 250, 240) 20%,
-    rgb(255, 255, 242) 20%,
-    transparent
-  );
+    margin-left: 10%;
+    padding-top: 60px;
+    margin-top: -40px;
+    background: linear-gradient( 120deg, rgb(240, 249, 255) 20%, rgb(242, 250, 255) 20%, transparent);
 }
 
 .ha-right a,
 .h-con a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  margin-top: -20px;
-  text-decoration: none;
-  width: 140px;
-  height: 44px;
-  background: linear-gradient(120deg, rgb(255, 145, 0), orange);
-  box-shadow: 0 5px 30px rgba(255, 85, 0, 0.628);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: -20px;
+    text-decoration: none;
+    width: 140px;
+    height: 44px;
+    background: linear-gradient(120deg, rgb(0, 174, 255), #0073ff);
+    box-shadow: 0 5px 30px rgba(0, 179, 255, 0.628);
 }
 
 .acts {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 0;
 }
 
 .a-grid {
-  width: 80vw;
-  margin: 100px auto;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 10px;
+    width: 80vw;
+    margin: 100px auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .a-grid img {
-  object-fit: cover;
+    object-fit: cover;
 }
 
 .ag-row {
-  width: 80vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 
 .ag-row img,
 .ag-row div {
-  width: 40vw;
-  height: 20vh;
+    width: 40vw;
+    height: 20vh;
 }
 
 .ag-rowm img,
 .ag-rowm {
-  width: calc(80vw + 10px);
-  height: 50vh;
+    width: calc(80vw + 10px);
+    height: 50vh;
 }
 
-.ag-row > div,
+.ag-row>div,
 .ag-rowm {
-  position: relative;
+    position: relative;
 }
 
 .a-grid p {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  background-color: rgba(0, 0, 0, 0.258);
-  color: white;
-  text-align: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.258);
+    color: white;
+    text-align: center;
 }
 
 .a-grid span {
-  border-bottom: 3px solid orange;
-  width: 10%;
-  text-align: center;
-  margin-top: 15px;
+    border-bottom: 3px solid #0073ff;
+    width: 10%;
+    text-align: center;
+    margin-top: 15px;
 }
 
 .rep {
-  width: 80vw;
-  margin: auto;
-  margin-bottom: 100px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 40px;
+    width: 80vw;
+    margin: auto;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
 }
 
 .rep img {
-  width: 60px;
+    width: 60px;
 }
 
 .r-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  max-width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 220px;
 }
 
 .r-card h2 {
-  font-weight: normal;
-  font-size: xx-large;
-  color: orange;
+    font-weight: normal;
+    font-size: xx-large;
+    color: #0073ff;
 }
 
 .r-card span {
-  width: 30%;
-  height: 3px;
-  border-bottom: 5px solid orange;
+    width: 30%;
+    height: 3px;
+    border-bottom: 5px solid #0073ff;
 }
 
 .r-card p {
-  text-align: center;
+    text-align: center;
 }
 
 .h-con {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  gap: 70px;
-  flex-wrap: wrap;
-  margin: 150px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 70px;
+    flex-wrap: wrap;
+    margin: 150px 0;
 }
 
 .h-con img {
-  width: 250px;
-  padding: 40px;
-  border-radius: 30px;
-  box-shadow: 0 5px 30px rgba(126, 126, 126, 0.116);
+    width: 250px;
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow: 0 5px 30px rgba(126, 126, 126, 0.116);
 }
 
 .hc-head {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
 .hc-head p {
-  font-size: x-large;
+    font-size: x-large;
 }
 
 .hc-head input,
 .hc-head textarea {
-  width: 290px;
-  height: 40px;
-  border-radius: 10px;
-  border: none;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.073);
-  text-indent: 15px;
-  transition: all 0.2s ease-in-out;
+    width: 290px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.073);
+    text-indent: 15px;
+    transition: all 0.2s ease-in-out;
 }
 
 .hc-head textarea {
-  height: 100px;
+    height: 100px;
 }
 
 input::placeholder,
 textarea::placeholder {
-  color: lightgray;
+    color: lightgray;
 }
 
 input:focus,
 textarea:focus {
-  outline: 2px solid orange;
+    outline: 2px solid #0073ff;
 }
 
 .h-con a {
-  border-radius: 50px;
-  margin: 20px;
+    border-radius: 50px;
+    margin: 20px;
 }
 
 @media (max-width: 700px) {
-  .ha-left h2 {
-    font-size: x-large;
-    /* padding: 100px 30px 30px 60px; */
-  }
-  .ha-left h2::before {
-    content: "";
-    width: 130px;
-    height: 130px;
-    top: -40px;
-    left: -30px;
-  }
-  .ha-right p {
-    max-width: 70%;
-    font-size: 11px;
-    line-height: 14px;
-    margin-top: 50px;
-  }
-  .ha-right p:first-of-type {
-    margin-left: -20px;
-  }
+    .ha-left h2 {
+        font-size: x-large;
+        /* padding: 100px 30px 30px 60px; */
+    }
+    .ha-left h2::before {
+        content: "";
+        width: 130px;
+        height: 130px;
+        top: -40px;
+        left: -30px;
+    }
+    .ha-right p {
+        max-width: 70%;
+        font-size: 11px;
+        line-height: 14px;
+        margin-top: 50px;
+    }
+    .ha-right p:first-of-type {
+        margin-left: -20px;
+    }
 }

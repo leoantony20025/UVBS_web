@@ -14,8 +14,8 @@ function Banner({ img, h1, p, page }) {
             style={
               page === "home"
                 ? {
-                    color: "orange",
-                    borderBottom: "4px solid orange",
+                    color: "#0073ff",
+                    borderBottom: "4px solid #0073ff",
                     paddingBottom: "7px",
                   }
                 : {}
@@ -28,8 +28,8 @@ function Banner({ img, h1, p, page }) {
             style={
               page === "about"
                 ? {
-                    color: "orange",
-                    borderBottom: "4px solid orange",
+                    color: "#0073ff",
+                    borderBottom: "4px solid #0073ff",
                     paddingBottom: "7px",
                   }
                 : {}
@@ -42,8 +42,8 @@ function Banner({ img, h1, p, page }) {
             style={
               page === "contact"
                 ? {
-                    color: "orange",
-                    borderBottom: "4px solid orange",
+                    color: "#0073ff",
+                    borderBottom: "4px solid #0073ff",
                     paddingBottom: "7px",
                   }
                 : {}

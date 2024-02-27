@@ -71,7 +71,7 @@ function About() {
       <div id="journey" className="jour">
         <div className="j-field" style={{ marginTop: 50 }}>
           <img
-            src="https://img.icons8.com/material-outlined/50/FD7E14/hot-air-balloon.png"
+            src="https://img.icons8.com/material-outlined/50/0073ff/hot-air-balloon.png"
             alt=""
           />
           <p>UVBS got registered</p>
@@ -79,7 +79,7 @@ function About() {
         <span></span>
         <div className="j-field">
           <img
-            src="https://img.icons8.com/material-outlined/50/FD7E14/hot-air-balloon.png"
+            src="https://img.icons8.com/material-outlined/50/0073ff/hot-air-balloon.png"
             alt=""
           />
           <p>First Board meeting, joining of Staff</p>
@@ -87,7 +87,7 @@ function About() {
         <span></span>
         <div className="j-field">
           <img
-            src="https://img.icons8.com/material-outlined/50/FD7E14/hot-air-balloon.png"
+            src="https://img.icons8.com/material-outlined/50/0073ff/hot-air-balloon.png"
             alt=""
           />
           <p>First Song Album Released</p>
@@ -96,7 +96,7 @@ function About() {
         <span></span>
         <div className="j-field">
           <img
-            src="https://img.icons8.com/material-outlined/50/FD7E14/hot-air-balloon.png"
+            src="https://img.icons8.com/material-outlined/50/0073ff/hot-air-balloon.png"
             alt=""
           />
           <p>UVBS Directors training</p>
@@ -105,7 +105,7 @@ function About() {
         <span></span>
         <div className="j-field">
           <img
-            src="https://img.icons8.com/material-outlined/50/FD7E14/hot-air-balloon.png"
+            src="https://img.icons8.com/material-outlined/50/0073ff/hot-air-balloon.png"
             alt=""
           />
           <p>VBS in 28 places in Tamilnadu</p>
@@ -113,7 +113,7 @@ function About() {
         <span></span>
         <div className="j-field">
           <img
-            src="https://img.icons8.com/material-outlined/50/FD7E14/hot-air-balloon.png"
+            src="https://img.icons8.com/material-outlined/50/0073ff/hot-air-balloon.png"
             alt=""
           />
           <p>First Magazine</p>
@@ -122,7 +122,7 @@ function About() {
         <span></span>
         <div className="j-field">
           <img
-            src="https://img.icons8.com/material-outlined/50/FD7E14/hot-air-balloon.png"
+            src="https://img.icons8.com/material-outlined/50/0073ff/hot-air-balloon.png"
             alt=""
           />
           <p>Thanksgiving meetings / Released of first VCD</p>
@@ -130,7 +130,7 @@ function About() {
         <span></span>
         <div className="j-field">
           <img
-            src="https://img.icons8.com/material-outlined/50/FD7E14/hot-air-balloon.png"
+            src="https://img.icons8.com/material-outlined/50/0073ff/hot-air-balloon.png"
             alt=""
           />
           <p>Counseling camp for kids affected by Tsunami</p>
@@ -139,7 +139,7 @@ function About() {
         <span></span>
         <div className="j-field">
           <img
-            src="https://img.icons8.com/material-outlined/50/FD7E14/hot-air-balloon.png"
+            src="https://img.icons8.com/material-outlined/50/0073ff/hot-air-balloon.png"
             alt=""
           />
           <p>UVBS songs were telecasted in Television channel</p>
@@ -148,7 +148,7 @@ function About() {
         <span></span>
         <div className="j-field">
           <img
-            src="https://img.icons8.com/material-outlined/50/FD7E14/hot-air-balloon.png"
+            src="https://img.icons8.com/material-outlined/50/0073ff/hot-air-balloon.png"
             alt=""
           />
           <p>Hindi, Marathi songs recording / released</p>
@@ -157,7 +157,7 @@ function About() {
         <span></span>
         <div className="j-field">
           <img
-            src="https://img.icons8.com/material-outlined/50/FD7E14/hot-air-balloon.png"
+            src="https://img.icons8.com/material-outlined/50/0073ff/hot-air-balloon.png"
             alt=""
           />
           <p>MUF ministries held</p>
