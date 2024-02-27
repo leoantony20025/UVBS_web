@@ -155,7 +155,7 @@ const PrivacyPolicy = () => {
         <p>By email: uvbs.online@gmail.com</p>
         </li>
         <li>
-        <p>By visiting this page on our website: <a href="https://unitedvbs.web.app/contact" rel="external nofollow noopener" target="_blank">https://unitedvbs.web.app/contact</a></p>
+        <p>By visiting this page on our website: <a href="https://unitedvbs.web.app/contact" rel="external nofollow noopener noreferrer" target="_blank">https://unitedvbs.web.app/contact</a></p>
         </li>
         </ul>
     </div>
